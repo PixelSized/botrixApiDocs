@@ -7,13 +7,17 @@ IMPORTANT: Need an authentication token? Botrix.tk/developers
 
 ## GET /api/get/bot/:id
 
-Get's a bot's stats from id (no auth required)
+Authentication: Requires Bearer Token
+
+Get's a bot's stats from id 
 
 See [bot object] for more info on this endpoint
 
 ------------------------------------------------------
 
 ## GET /api/get/user/:id
+
+Authentication: Requires Bearer Token
 
 Get's user stats and bot's listed on website
 
@@ -28,6 +32,7 @@ Authentication: Requires Bearer Token
 Get's if the user has voted for your listed bot's
 
 
+---------------------------------------------------------
 
 
 User Object
